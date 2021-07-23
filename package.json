@@ -5,12 +5,14 @@
   "main": "demo.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "nodemon demo.js"
+    "serve": "nodemon mongoconnection.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.3",
     "nodemailer": "^6.6.3"
   },
   "devDependencies": {
